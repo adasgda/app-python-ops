@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git url: 'https://github.com/adasgda/app-python', branch: 'main'
+                git url: 'https://github.com/adasgda/app-python.git', branch: 'main'
             }
         }
 
